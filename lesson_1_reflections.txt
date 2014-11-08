@@ -1,0 +1,32 @@
+Question
+How did viewing a diff between two versions
+of a file help you see the bug that was introduced?
+
+Answer
+In this case, the added line contained a typo,
+so it was easy to locate the problem, go into 
+the file and search for the offender.
+However, if a bug had existed in a line that
+had not been changed, the bug would not be as easy 
+to detect.
+
+Question
+How could having easy access to the entire history of 
+a file make you a more efficient programmer in the long
+term?
+
+Answer
+Keeping track and having access to previously functional scripts
+will allow for a quick "undo" feature in the event of 
+a bug that could not be otherwise fixed. Also, sometimes the most
+recent file could be accidentally misplaced or deleted. Having
+past files saved in a different location could alleviate the
+agony of starting over from scratch.
+
+Question
+What do you think are the pros and cons of manually choosing
+when to create a commit, like you do in Git, vs. having versions 
+automatically saved, like Google docs does?
+
+Answer
+The most obvious con is user-error. Sometimes the user may forget to make a commit, which may not be an issue if minimal changes have been made. However, when a lot of hours and changes have been made, lossing that information would be detrimental. The pro would be choosing when commiting would be relevant and meaningful.
