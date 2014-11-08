@@ -1,0 +1,7 @@
+Question
+What happens when you initialize a repository? 
+Why do you need to do it?
+
+Answer
+When the file location is initialized, a repository is created.
+This is necessary in order to create a usable repository.
