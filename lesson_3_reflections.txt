@@ -5,3 +5,12 @@ Answer
 I honestly can't think of an advantage to doing this. To me, it feels safer to first have your work done on your local system, 
 and then push it out to the repository. It feels like you have something immediate to fall back on this way. I will likely
 never use this feature.
+
+Question
+Why might you want to always pull changes manually rather than 
+having Git automatically stay up-to-date with your remote 
+repository?
+
+Answer
+The manual nature of Git gives users more control over what they are submitting or receiving.
+If for nothing else, it is convenient. 

@@ -5,3 +5,9 @@ Why do you need to do it?
 Answer
 When the file location is initialized, a repository is created.
 This is necessary in order to create a usable repository.
+
+Question
+How can you use the staging area to make sure you have one commit per logical change?
+
+Answer
+The staging area is the final area where you can review all your added files in order to ensure that all files make logical sense for the feature being committed. The git diff command is very useful during this process, which will allow the user to view the changes made to the added file(s), compared to those that already exist in the repository.
